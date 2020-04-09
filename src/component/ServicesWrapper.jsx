@@ -20,14 +20,14 @@ function ServicesWrapper() {
               <ServicesComponent
                 icon={<FaShippingFast className="icons" />}
                 title="30 Days return policy"
-                text="2.8GHz quad‑core 8th‑generation Intel Core i7 processor, Turbo Boost up to 4.7GHz"
+                text="2.8GHz quad‑core 8th‑generation ans Intel Core i7 processor, Turbo Boost up to 4.7GHz"
               />
             </div>
             <div className="col-md-4 text-center">
               <ServicesComponent
                 icon={<FaFantasyFlightGames className="icons" />}
                 title="Secured Payment"
-                text="2.8GHz quad‑core 8th‑generation Intel Core i7 processor, Turbo Boost up to 4.7GHz"
+                text="2.8GHz quad‑core 8th‑generation Intel Core i7 processorfd, Turbo Boost up to 4.7GHz"
               />
             </div>
           </div>
