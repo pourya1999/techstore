@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Chettan+2|Bellota|Raleway&display=swap");
+
+:root {
+  --primaryColor: #5fb7e8;
+  --primaryRGBA: rgba(0, 0, 0, 0.3);
+  --mainGrey: #fafafa;
+  --darkGrey: #5f5e5e;
+  --mainWhite: #ffffff;
+  --mainBlack: #222222;
+  --mainTransition: all 0.2s ease-in-out;
+  --mainSpacing: 0.3rem;
+}
+
+body {
+  font-family: "baloo", serif !important;
+  background-color: var(--mainGrey) !important;
+  color: var(--mainBlack);
+}
+
+.text-title {
+  font-weight: bold;
+  letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
+}
+
+.text-main {
+  color: var(--primaryColor);
+}
+
+.main-link {
+  padding: 0.5rem 1rem;
+  background: var(--primaryColor);
+  color: var(--mainWhite);
+  display: inline-block;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  outline: 2px solid var(--primaryColor);
+  outline-offset: 4px;
+  border: none;
+  transition: var(--mainTransition);
+}
+
+.main-link:hover {
+  background: var(--darkGrey);
+  text-decoration: none;
+  color: var(--primaryColor);
+  outline-color: var(--darkGrey);
+}
+
+.add-icon {
+  color: blue;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.remove-icon {
+  color: red;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
